@@ -1,0 +1,224 @@
+body {
+  font-family: 'Outfit' !important;
+}
+
+/*Barra navegacion*/
+.navbar {
+  background-color: #242424;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center"
+
+}
+
+.redes-sociales a {
+  margin-left: 10px;
+}
+
+.redes-sociales img {
+  height: 30px;
+}
+
+/*Estilo para parte principal */
+.carousel-item {
+  height: 748px;
+  background-size: cover;
+  background-position: center;
+  font-weight: bold;
+}
+
+.carousel-item:nth-child(1) {
+  background-image: url('/imagenes/fondo.png');
+}
+
+.carousel-item:nth-child(2) {
+  background-image: url('/imagenes/image1.jpg');
+}
+
+.carousel-item:nth-child(3) {
+  background-image: url('/imagenes/image2.jpg');
+}
+
+.carousel-indicators button {
+  border-radius: 50%;
+}
+
+.carousel-indicators .active {
+  background-color: #fffafa
+}
+
+.carousel-indicators {
+  margin-bottom: 50px;
+}
+
+.carousel-indicators button {
+  border-radius: 20px;
+  width: 25px;
+  height: 3px;
+  margin: 0 10px;
+  border: 0.5px solid #f8f9fa;
+}
+
+.carousel-indicators button:focus {
+  outline: none;
+}
+
+.carousel-caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 1.5;
+  font-weight: bold;
+  align-content: center;
+}
+
+
+.carousel-item h1 {
+  font-weight: 800;
+}
+
+.boton {
+  width: 154px;
+  height: 42px;
+  font-weight: 28px bold;
+  font-size: 20px;
+  background-color: transparent;
+  border-radius: 21px;
+  border: 2px solid #FFFFFF;
+  text-decoration: none;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+/* estilos introduccion */
+.intro {
+  padding-top: 80px;
+  padding-right: 37px;
+  padding-left: 37px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.intro button {
+  width: 154px;
+  height: 42px;
+  font-weight: 28px bold;
+  font-size: 20px;
+  background-color: transparent;
+  border-radius: 21px;
+  border: 2px solid #7575EE;
+  text-decoration: none;
+  color: #7575EE;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+ .card-container{
+  padding: 37px;
+  background-color: #EDEDED;
+  justify-content: center;
+}
+
+.card {
+  margin: 10px;
+  text-align: center;
+}
+
+
+/* Estilos CSS para la sección de descarga de PDF */
+.newsletter {
+  width: 100%;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  text-align: center; 
+}
+
+.newsletter-form-container {
+  width: 281px;
+  padding: 20px;
+  border-radius: 5px; 
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center; 
+  border-radius: 21px;
+  overflow: hidden;
+  border: 2px solid #7575EE; 
+}
+
+.newsletter-form input {
+  padding: 10px; 
+  text-align: center;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.newsletter-form button {
+  width: 68px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #7772F6;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  border-radius: 21px;
+}
+
+.newsletter-form button:hover {
+  background-color: darkblue;
+}
+
+.pdf{
+  width: 100%;
+  height: 20%;
+  background-color: #7772F6;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  align-items: center;
+}
+.pdf img{
+  width: 100px;
+  height: 100px;
+  
+}
+.pdf a {
+  color:#FFFFFF
+}
+
+/* Media query for computer screen size */
+@media (min-width: 768px) and (max-width: 1920px) {
+    .logo {
+      margin-left: 141px;
+    }
+  
+    .redes-sociales {
+      margin-right: 141px
+    }  
+  }
+  
+  /* Media query for mobile screen size */
+  @media (max-width: 767px) {
+    .logo {
+      margin-left: 37px;
+    }
+  
+    .redes-sociales {
+      margin-right: 37px
+    }
+  }
